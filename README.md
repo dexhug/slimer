@@ -9,7 +9,7 @@ It is currently supported on Windows only.
 -- if your compiled DLL is not already in the Lua path you must add it
 package.cpath = "path\\to\\your\\dll\\?.dll" .. package.cpath
 
--- use the appropriate 64 or 32 bit verion for your system
+-- use the appropriate 64 or 32 bit version for your system
 local slimer = require("slimerx64") -- 64 bit
 local slimer = require("slimerx86") -- 32 bit
 
