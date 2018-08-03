@@ -31,7 +31,7 @@ local startTime = slimer.clock() -- get current time
   ]]
 local endTime = slimer.clock() -- get end time
 
-print("Total time elapsed during code block:", (endTime - startTime) * period / 1000000, "microseconds")
+print("Total time elapsed during code block:", (endTime - startTime) * period * 1000, "milliseconds")
 ```
 
 ## Installation instructions
