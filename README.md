@@ -48,9 +48,9 @@ Slimer uses the Lua C API, which means that you cannot simply load the module as
 8. Under <b>Additional Include Directories</b>, add the directory path that contains the Lua header files (lua.h, lauxlib.h, etc).
 9. Go to <b>Advanced</b> in the same tab, and set <b>Compile As</b> to <b>C</b> if you are using the 32 bit version, and <b>C++</b> for the 64 bit version.
 10. Go to the <b>Linker</b> tab and hit <b>General</b>.
-11. Under <b>Additional Library Directories</b> add the directory path that contains your Lua5X.lib file (the binaries do not come with this file included, you must have compiled Lua yourself or get the .lib file somewhere). The .lib file must be for the 32 or 64 bit version of Lua depending on which one you are using, and of course you must use the Slimer version that matches that.
+11. Under <b>Additional Library Directories</b> add the directory path that contains your Lua5X.lib file (the binaries do not come with this file included, you must have compiled Lua yourself or get the .lib file somewhere). The .lib file must be for the 32 or 64 bit version of Lua depending on which one you are using, and of course you must use the Slimer version that corresponds to that.
 12. Under <b>Linker</b> --> <b>Input</b> --> <b>Additional Dependencies</b> add the name of the .lib file.
 13. Click <b>OK</b> on the Properties and build your project by selecting <b>Build</b> --> <b>Build Solution</b>.
 14. If everything works correctly you can now use "require" as you normally would and use Slimer. Enjoy!
 
-If you run into problems with the stdafx header, you can delete all the extra files that the project automatically created, and then click <b>Project</b> --> <b>Properties</b> --> <b>C/C++</b> --> <b>Precompiled Headers</b> --> <b>Precompiled Header</b> and set it to <b>Not Using Precompiled Headers</b>.
+If you run into problems with the stdafx header, you can delete all the extra files that the project automatically created, and then click <b>Project</b> --> <b>Properties</b> --> <b>C/C++</b> --> <b>Precompiled Headers</b> --> <b>Precompiled Header</b> and set it to <b>Not Using Precompiled Headers</b>. Also, make sure the Lua DLL is in a the same directory as your Slimer DLL, or link the path in addition to the above instructions.
