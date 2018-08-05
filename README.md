@@ -1,5 +1,5 @@
 # Welcome to the Slimer Module!
-Slimer provides the sleep, msleep, and usleep functions to Lua as a C extension. It also provides a high resolution (&lt;1us) clock that can be used for timing purposes.
+Slimer (sleep and timer) provides the sleep, msleep, and usleep functions to Lua as a C extension. It also provides a high resolution (&lt;1us) clock that can be used for timing purposes.
 It is currently supported on Windows only.
 
 ## Usage
