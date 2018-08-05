@@ -21,9 +21,9 @@ local frequency        = slimer.frequency() -- returns integer indicating freque
 local currentClockTime = slimer.clock()     -- returns current time since system startup with unit and precision of period
 local period           = slimer.period()    -- returns float indicating period of your PerformanceCounter in seconds
 
-sleep(10) -- sleep for 10 seconds
+sleep(10)    -- sleep for 10 seconds
 msleep(2400) -- sleep for 2.4 seconds
-usleep(100) -- sleep for .1 milliseconds
+usleep(100)  -- sleep for .1 milliseconds
 
 local startTime = slimer.clock() -- get current time
 --[[
