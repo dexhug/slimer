@@ -25,7 +25,7 @@ For the usleep function, Slimer uses a waitable timer with a precision of
 100 nanoseconds. See the MSDN documentation for more details.
 
 
-PERFORMANCECOUNTER FUNCTIONS:
+PERFORMANCE COUNTER FUNCTIONS:
 
 Slimer queries the PerformanceCounter to get a precise measurement of system
 time. Frequency measures the literal frequency of the counter. 1 / frequency is
