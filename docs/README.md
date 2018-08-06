@@ -48,7 +48,7 @@ amount of time, you can calibrate the sleep functions to work correctly by
 using this formula:
 `NEEDED SLEEP TIME - TIME TO EXECUTE CODE - TIME TO CALL FUNCTION = ACTUAL TIME YOU SHOULD SLEEP`
 
-The _WINDLL preprocessor definition must be defined when compiled your DLL
+The _WINDLL preprocessor definition must be defined when you compile your DLL
 (Visual Studio does this for you automatically).
 
 Slimer is really more of a "Slock" than it is a "Slimer", but the name is too cool to change!
