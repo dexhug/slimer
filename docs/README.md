@@ -46,7 +46,7 @@ As with any sleep function, the total time slept will always be the sleep time
 <i>plus the time it takes to call the function</i>. If you need to sleep for a precise
 amount of time, you can calibrate the sleep functions to work correctly by
 using this formula:
-  NEEDED SLEEP TIME - TIME TO EXECUTE CODE - TIME TO CALL FUNCTION = ACTUAL TIME YOU SHOULD SLEEP
+`NEEDED SLEEP TIME - TIME TO EXECUTE CODE - TIME TO CALL FUNCTION = ACTUAL TIME YOU SHOULD SLEEP`
 
 The _WINDLL preprocessor definition must be defined when compiled your DLL
 (Visual Studio does this for you automatically).
