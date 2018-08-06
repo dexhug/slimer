@@ -54,5 +54,3 @@ Slimer uses the Lua C API, which means that you cannot simply load the module as
 14. If everything works correctly you can now use "require" as you normally would and use Slimer. Enjoy!
 
 If you run into problems with the stdafx header, you can delete all the extra files that the project automatically created, and then click <b>Project</b> --> <b>Properties</b> --> <b>C/C++</b> --> <b>Precompiled Headers</b> --> <b>Precompiled Header</b> and set it to <b>Not Using Precompiled Headers</b>. Also, make sure the Lua DLL is in a the same directory as your Slimer DLL, or link the path in addition to the above instructions.
-
-Working on 32 bit version...
