@@ -51,3 +51,5 @@ using this formula:
 The _WINDLL preprocessor definition must be defined when compiled your DLL
 (Visual Studio does this for you automatically).
 
+Slimer is really more of a "Slock" than it is a "Slimer", but the name is too cool to change!
+
