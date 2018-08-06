@@ -17,9 +17,9 @@ local sleep  = slimer.sleep  -- sleep by seconds
 local msleep = slimer.msleep -- sleep by milliseconds
 local usleep = slimer.usleep -- sleep by microseconds
 -- see docs if you don't understand below
-local frequency        = slimer.frequency() -- returns integer indicating frequency of your PerformanceCounter
-local currentClockTime = slimer.clock()     -- returns current time since system startup with unit and precision of period
-local period           = slimer.period()    -- returns float indicating period of your PerformanceCounter in seconds
+local frequency   = slimer.frequency() -- returns integer indicating frequency of your PerformanceCounter
+local currentTime = slimer.clock()     -- returns current time since system startup with unit and precision of period
+local period      = slimer.period()    -- returns float indicating period of your PerformanceCounter in seconds
 
 sleep(10)    -- sleep for 10 seconds
 msleep(2400) -- sleep for 2.4 seconds
