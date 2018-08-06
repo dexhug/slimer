@@ -37,7 +37,7 @@ print("Total time elapsed during code block:", (endTime - startTime) * period * 
 ## Installation instructions
 Slimer uses the Lua C API, which means that you cannot simply load the module as you normally would using "require". You have to first compile the module into an executable that Lua can use. Creating a DLL through Microsoft Visual Studio is the easiest, so I have provided instructions for this method. If you are aware of the other compilation methods you are probably already knowledgeable enough to use them. Please note that you need your own compiled version of Lua either as a standalone or an embedded system, and you will require the Lua header files, an import library (.lib file), and a Lua DLL.
 
-#### Creating a DLL with Visual Studio
+#### Creating a DLL with the Visual Studio IDE
 1. Open Visual Studio and select <b>File</b> --> <b>New</b> --> <b>Project</b>.
 2. Look for the <b>Visual C++</b> tab, and select <b>Windows Desktop Wizard</b> (or DLL if you understand the differences).
 3. Select <b>Dynamic Link Library</b> from the next dialog box and create the project.
