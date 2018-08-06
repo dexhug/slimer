@@ -4,7 +4,7 @@ Slimer (sleep and timer) provides the sleep, msleep, and usleep functions to Lua
 as a C extension. It also provides a high resolution (<1us) clock that can be
 used for timing purposes. It is currently supported on Windows only.
 
-MODULE FUNCTIONS:
+##### MODULE FUNCTIONS:
 
 slimer.sleep(s) - Sleeps for "s" seconds.
 
@@ -20,14 +20,14 @@ slimer.period() - Returns a double indicating the period of the
                   PerformanceCounter
 
 
-SLEEP FUNCTIONS:
+##### SLEEP FUNCTIONS:
 
 Slimer uses the Windows "Sleep" function for the sleep and msleep functions.
 For the usleep function, Slimer uses a waitable timer with a precision of
 100 nanoseconds. See the MSDN documentation for more details.
 
 
-PERFORMANCE COUNTER FUNCTIONS:
+##### PERFORMANCE COUNTER FUNCTIONS:
 
 Slimer queries the PerformanceCounter to get a precise measurement of system
 time. Frequency measures the literal frequency of the counter. 1 / frequency is
